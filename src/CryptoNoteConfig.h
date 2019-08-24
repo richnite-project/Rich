@@ -2,6 +2,7 @@
 // Copyright (c) 2014-2018, The Monero Project
 // Copyright (c) 2018-2019, The TurtleCoin Developers
 // Copyright (c) 2018-2019, The WrkzCoin developers
+// Copyright (c) 2018-2019, The Richnite junior dev
 //
 // Please see the included LICENSE file for more information.
 
@@ -32,7 +33,7 @@ const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 60;
 const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW_V3          = 11;
 
 // MONEY_SUPPLY - total number coins to be generated
-const uint64_t MONEY_SUPPLY                                  = UINT64_C(50000000000000);
+const uint64_t MONEY_SUPPLY                                  = UINT64_C(1000000000000000);
 const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX                   = 20160;
 const size_t   ZAWY_DIFFICULTY_V2                            = 0;
 const uint8_t  ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION      = 3;
@@ -195,7 +196,7 @@ const char     P2P_NET_DATA_FILENAME[]                       = "p2pstate.wrkz.bi
 const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.wrkz.json";
 } // parameters
 
-const char     CRYPTONOTE_NAME[]                             = "WRKZCoin";
+const char     CRYPTONOTE_NAME[]                             = "RICHNITE";
 
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
 const uint8_t  TRANSACTION_VERSION_2                         =  2;
@@ -259,10 +260,7 @@ const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 };
 
 const char* const SEED_NODES[] = {
-       "139.99.46.111:17855",        // node-sg1.wrkz.work
-       "95.216.164.177:17855",       // myexplorer.wrkz.work
-       "51.15.131.220:17855",        // node-pr2.wrkz.work
-       "142.44.243.123:17855",       // node-us1.wrkz.work
-       "5.172.219.174:17855"         // wrkz.stx.nl sniperviperman
+     
+      "5.172.219.174:0000"         // sniperviperman
 };
 } // CryptoNote
